@@ -1,0 +1,61 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.todo.done .content {
+  text-decoration: line-through;
+}
+.content {
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: oldlace;
+}
+
+button.add {
+  background-color: rgb(63, 81, 138);
+  color: white;
+  padding: 6px 15px;
+}
+
+button.edit {
+  background-color: rgb(63, 138, 63);
+  color: white;
+}
+
+button.delete {
+  background-color: rgb(143, 68, 62);
+  color: white;
+}
+
+.todo {
+  display: flex;
+  background-color: rgb(202, 198, 190);
+  margin: 20px;
+  padding: 4px;
+  font-size: 20px;
+}
+
+.id {
+  margin-right: 20px;
+  padding-top: 6px;
+  color: navy;
+}
+
+.content {
+  padding-top: 6px;
+  flex-grow: 2;
+}
+
+input {
+  margin: 20px;
+  padding: 10px 20px;
+}
